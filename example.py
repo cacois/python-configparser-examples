@@ -2,7 +2,7 @@ import ConfigParser
 import ast
 
 config = ConfigParser.RawConfigParser()
-config.read('test.cfg')
+config.read('example.cfg')
 
 # single variables
 print config.get('section1', 'var1')
